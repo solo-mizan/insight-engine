@@ -6,7 +6,7 @@ from engine.graph import research_app, AgentState  # type: ignore
 
 def run_research():
     print("InsightEngine Pro Activate")
-    question = input("What would you like to research from your PDFs?")
+    question = input("What would you like to research from your PDFs?\n")
 
     # initialize state
     initial_state: AgentState = {
