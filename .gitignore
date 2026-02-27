@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Environments
+.venv/
+__pycache__/
+*.pyc
+
+# Local Databases
+chroma_db/
+
+# OS files
+.DS_Store
